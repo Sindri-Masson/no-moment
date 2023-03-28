@@ -1,7 +1,7 @@
 module.exports = {
     meta: {
         messages: {
-            noMoment: 'Unexpected use of Moment.js library.',
+            noMoment: 'Unexpected use of Moment.js library!',
         },
     },
     create(context) {
