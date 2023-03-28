@@ -1,12 +1,12 @@
 {
-    "name": "no-moment",
+    "name": "@scope/eslint-config-no-moment",
     "version": "1.0.1",
     "description": "An eslint rule that forbids the use of the moments library",
     "main": "index.js",
     "scripts": {
         "test": "vitest",
         "type-check": "tsc --noEmit",
-        "lint": "eslint src",
+        "lint": "eslint ./",
         "prettier": "prettier --check ."
     },
     "keywords": [],
