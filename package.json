@@ -1,29 +1,37 @@
 {
-    "name": "@scope/eslint-config-no-moment",
-    "version": "1.0.1",
-    "description": "An eslint rule that forbids the use of the moments library",
-    "main": "index.js",
-    "scripts": {
-        "test": "vitest",
-        "type-check": "tsc --noEmit",
-        "lint": "eslint ./",
-        "prettier": "prettier --check ."
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "date-fns": "^2.29.3",
-        "moment": "^2.29.4",
-        "typescript": "^4.9.4",
-        "vitest": "^0.27.3"
-    },
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.52.0",
-        "@typescript-eslint/parser": "^5.51.0",
-        "@vitest/coverage-c8": "^0.28.5",
-        "eslint": "^8.34.0",
-        "eslint-plugin-sindri": "file:./rules",
-        "prettier": "2.8.4"
-    }
+  "name": "@my-username/eslint-config-no-moment",
+  "version": "1.0.1",
+  "description": "An eslint rule that forbids the use of the moments library",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint ./",
+    "prettier": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "moment": "^2.29.4",
+    "typescript": "^4.9.4",
+    "vitest": "^0.27.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "eslint": "^8.34.0",
+    "eslint-plugin-sindri": "file:./rules",
+    "prettier": "2.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sindri-Masson/no-moment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sindri-Masson/no-moment/issues"
+  },
+  "homepage": "https://github.com/Sindri-Masson/no-moment#readme"
 }
