@@ -1,6 +1,6 @@
 {
-    "name": "@sindri-masson/eslint-config-no-moment",
-    "version": "1.0.3",
+    "name": "@sindri-masson/eslint-plugin-no-moment",
+    "version": "1.0.0",
     "description": "An eslint rule that forbids the use of the moments library",
     "main": "index.js",
     "scripts": {
